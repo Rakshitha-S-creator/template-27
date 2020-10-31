@@ -43,7 +43,7 @@ function setup(){
 }
 
 function draw(){
-    background(backgroundImg);
+    background(0);
     Engine.update(engine);
     //strokeWeight(4);
     box1.display();
